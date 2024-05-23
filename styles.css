@@ -93,3 +93,26 @@
   flex-wrap: wrap;
   max-width: 150px;
 }
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  align-items: center;
+  gap: 1rem;
+}
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  width: 500px;
+}
+.quote-author {
+  font-size: 20px;
+  font-weight: 800;
+}
+.quote-container-small {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
